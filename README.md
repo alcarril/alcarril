@@ -6,7 +6,7 @@
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=58A6FF&center=true&width=600&lines=Backend+Engineer;Systems+%26+Infrastructure;DevOps+%26+Automation;Low-Level+Optimization;Container+Orchestration;Shell+Scripting+%26+Linux;Distributed+Systems+Design)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=58A6FF&center=true&width=700&lines=Backend+Engineer;Systems+%26+Infrastructure;Project+Design+%26+Architecture+from+Scratch;Low-Level+Optimization+%26+Algorithms;Network+%26+Systems+Administration;DevOps+%26+Automation;Distributed+Systems+Design)](https://git.io/typing-svg)
 
 <br>
 
@@ -19,9 +19,11 @@
 
 ## About
 
-Systems engineer operating at every layer of the stack — from container orchestration and infrastructure automation down to microprocessor-level optimisations in hot loops.
+Software developer with experience in systems administration, project design and architecture from scratch, algorithms and low-level optimisations, infrastructure, networking, and backend development.
 
-I design systems built to last: distributed, automated, and efficient. If it can be scripted, it will be. If it can run faster, I'll make it.
+Currently studying at **42 School**, where we learn autonomously through projects — no lectures, no teachers. I am in my final project, where our team is building a full web platform with internal traffic monitoring, containerised deployments, DevOps-driven development flow, a matchmaking system, a real-time streaming chat, and AI features trained by us.
+
+Alongside that, I am starting my own projects and working towards specialising in **Infrastructure & DevOps**, **Cybersecurity**, and **AI** — with the goal of unifying those three areas, as I believe that intersection is where our industry is heading.
 
 ---
 
