@@ -1,13 +1,10 @@
 <div align="center">
 
 ```
-01000001 01001100 01000011 01000001 01010010 01010010 01001001 01001100
-```
-
-# ALEJANDRO CARRILLO MARTÍN-CARO
-
-```
-▓ Backend Engineer  ▓ Infrastructure  ▓ DevOps  ▓ Systems  ▓ Low-Level Optimization
+╔══════════════════════════════════════════════════════════════════╗
+║   alejandro carrillo martín-caro  ·  alcarril                  ║
+║   backend · infrastructure · devops · systems · low-level      ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-carrillo-martin-caro-14848b293/)
@@ -19,9 +16,9 @@
 
 ## About
 
-Systems engineer operating at every layer of the stack — from container orchestration and infrastructure automation down to microprocessor-level optimizations in hot loops.
+Systems engineer operating at every layer of the stack — from container orchestration and infrastructure automation down to microprocessor-level optimisations in hot loops.
 
-I design systems that are built to last: distributed, automated, and efficient. If it can be scripted, it will be. If it can run faster, I'll make it.
+I design systems built to last: distributed, automated, and efficient. If it can be scripted, it will be. If it can run faster, I'll make it.
 
 ---
 
@@ -51,54 +48,31 @@ I design systems that are built to last: distributed, automated, and efficient. 
 
 ## Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🐳 [Inception](https://github.com/alcarril/inception)
+Production-grade web infrastructure deployed via **Docker & Docker Compose** on a VirtualBox host. Fully containerised architecture: **MariaDB**, **WordPress + PHP** with SSR, **NGINX** as reverse proxy, and **Redis** for service-side caching. Designed following **POPL** patterns and **IAM** principles to simulate a real production environment. Deployment fully automated with **Bash** and **Makefile**.
 
-### 🐳 Inception
-**Production-grade web infrastructure via Docker**
+`Docker` `Docker Compose` `NGINX` `MariaDB` `Redis` `Bash` `Makefile` `VirtualBox`
 
-Fully containerised stack deployed on a VirtualBox host: **MariaDB**, **WordPress + PHP** with SSR, **NGINX** reverse proxy, and **Redis** for service-side caching.
+---
 
-Designed following **POPL** patterns and **IAM** principles to simulate a real production environment. Deployment fully automated with **Bash** and **Makefile**.
+### 🐚 [Minishell](https://github.com/alcarril/minishell)
+A UNIX shell interpreter written from scratch in **C**. Implements a dictionary parser with a **jump table** and a finite-state automaton for execution flow control. Handles redirections, process management, signals, and blocking — built on top of a custom library: **Libft**.
 
-`Docker` `Compose` `NGINX` `MariaDB` `Redis` `Bash`
+`C` `Libft` `Automata` `Parser` `POSIX` `Processes` `Redirections`
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 🐚 Minishell
-**UNIX shell interpreter — built from scratch**
+### 🎮 [Cube3D](https://github.com/alcarril/cube3d)
+A raycasting game engine written in **C** with a full physics system and microprocessor-level optimisations applied to hot loops — the same class of techniques used in game engines, database engines, ML runtimes, and physics simulators.
 
-Custom command interpreter in **C** featuring a dictionary parser, a **jump table**, and a finite-state automaton for execution flow. Handles redirections, processes, signals, and blocking — built on top of a custom library: **Libft**.
+`C` `Raycasting` `Low-Level` `Performance` `Physics` `Game Engine`
 
-`C` `Automata` `Parser` `POSIX` `Processes` `Libft`
+---
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### 📡 [IRC Server](https://github.com/alcarril/irc)
+A concurrent IRC server in **C++** with connection multiplexing through I/O pools, a native **bot**, and a peer-to-peer **file transfer** system between clients. Robust and efficient network architecture.
 
-### 🎮 Cube3D
-**Raycasting game engine with low-level optimisations**
-
-A full game engine written in **C** implementing raycasting, a physics system, and microprocessor-level performance optimisations in hot loops — the same techniques found in game engines, DB engines, ML runtimes, and physics simulators.
-
-`C` `Raycasting` `Low-Level` `Performance` `Physics`
-
-</td>
-<td width="50%" valign="top">
-
-### 📡 IRC Server
-**Concurrent IRC server with socket multiplexing**
-
-A fully-featured IRC server in **C++** with connection multiplexing through I/O pools, a native **bot**, and a peer-to-peer **file transfer** system between clients.
-
-`C++` `Sockets` `Multiplexing` `I/O Pools` `Networking`
-
-</td>
-</tr>
-</table>
+`C++` `Sockets` `Multiplexing` `I/O Pools` `Networking` `IRC`
 
 ---
 
@@ -106,11 +80,9 @@ A fully-featured IRC server in **C++** with connection multiplexing through I/O 
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alcarril&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
+![Profile Views](https://komarev.com/ghpvc/?username=alcarril&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcarril&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-![Streak](https://streak-stats.demolab.com/?user=alcarril&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=58a6ff)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alcarril&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b35)
 
 </div>
 
@@ -119,8 +91,8 @@ A fully-featured IRC server in **C++** with connection multiplexing through I/O 
 ## Contact
 
 ```
-  Name   →  Alejandro Carrillo Martín-Caro
-  Email  →  alexcarrillomc@outlook.com
+  Name      →  Alejandro Carrillo Martín-Caro
+  Email     →  alexcarrillomc@outlook.com
   LinkedIn  →  /in/alejandro-carrillo-martin-caro-14848b293
 ```
 
@@ -128,7 +100,7 @@ A fully-featured IRC server in **C++** with connection multiplexing through I/O 
 <br>
 
 ```
-There is no spoon.  Only well-optimised code.
+There is no spoon. Only well-optimised code.
 ```
 
 </div>
