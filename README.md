@@ -3,9 +3,12 @@
 ```
 ╔══════════════════════════════════════════════════════════════════╗
 ║   alejandro carrillo martín-caro  ·  alcarril                  ║
-║   backend · infrastructure · devops · systems · low-level      ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=58A6FF&center=true&width=600&lines=Backend+Engineer;Systems+%26+Infrastructure;DevOps+%26+Automation;Low-Level+Optimization;Container+Orchestration;Shell+Scripting+%26+Linux;Distributed+Systems+Design)](https://git.io/typing-svg)
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-carrillo-martin-caro-14848b293/)
 [![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:alexcarrillomc@outlook.com)
@@ -24,20 +27,31 @@ I design systems built to last: distributed, automated, and efficient. If it can
 
 ## Stack
 
-**Systems & Infrastructure**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
-![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=flat-square&logo=vagrant&logoColor=white)
-
 **Languages**
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Makefile](https://img.shields.io/badge/Makefile-6D8CC3?style=flat-square&logo=cmake&logoColor=white)
+
+**Systems**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash Scripting](https://img.shields.io/badge/Bash_Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**DevOps & Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=flat-square&logo=vagrant&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+**Databases**
+
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **Environment**
 
@@ -80,7 +94,7 @@ A concurrent IRC server in **C++** with connection multiplexing through I/O pool
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=alcarril&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
+![Repositories](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/alcarril&query=public_repos&style=for-the-badge&color=58a6ff&label=PUBLIC+REPOSITORIES&logo=github&logoColor=white)
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alcarril&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b35)
 
@@ -90,11 +104,14 @@ A concurrent IRC server in **C++** with connection multiplexing through I/O pool
 
 ## Contact
 
-```
-  Name      →  Alejandro Carrillo Martín-Caro
-  Email     →  alexcarrillomc@outlook.com
-  LinkedIn  →  /in/alejandro-carrillo-martin-caro-14848b293
-```
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Alejandro_Carrillo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-carrillo-martin-caro-14848b293/)
+[![Email](https://img.shields.io/badge/alexcarrillomc@outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:alexcarrillomc@outlook.com)
+
+</div>
+
+---
 
 <div align="center">
 <br>
