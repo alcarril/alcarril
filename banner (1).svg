@@ -139,7 +139,7 @@
   <!-- ROLE -->
   <text x="20" y="114" class="out-label term-font">ROLE    </text>
   <text x="110" y="114" class="out-comment term-font">──  </text>
-  <text x="150" y="114" class="out-green term-font">Backend · DevOps · Infrastructure · Systems · Low-Level</text>
+  <text x="150" y="114" class="out-green term-font">Backend · DevOps · Infrastructure&Networking · Systems · Low-Level</text>
 
   <!-- SCHOOL -->
   <text x="20" y="134" class="out-label term-font">SCHOOL  </text>
@@ -150,7 +150,7 @@
   <!-- FOCUS -->
   <text x="20" y="154" class="out-label term-font">FOCUS   </text>
   <text x="110" y="154" class="out-comment term-font">──  </text>
-  <text x="150" y="154" class="out-val term-font">Infrastructure · Cybersecurity · AI  </text>
+  <text x="150" y="154" class="out-val term-font">Infrastructure & DevOps · Cybersecurity · AI · Agents implementation in workflows </text>
   <text x="490" y="154" class="out-comment term-font">// converging three fields</text>
 
   <!-- LOCATION -->
