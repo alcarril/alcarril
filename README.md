@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" alt="Alejandro Carrillo Martín-Caro" width="100%"/>
+<img src="banner (1).svg" alt="Alejandro Carrillo Martín-Caro" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=58A6FF&center=true&width=700&lines=Backend+Engineer;Systems+%26+Infrastructure;Project+Design+%26+Architecture+from+Scratch;Low-Level+Optimization+%26+Algorithms;Network+%26+Systems+Administration;DevOps+%26+Automation;Distributed+Systems+Design)](https://git.io/typing-svg)
 
