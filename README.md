@@ -19,7 +19,6 @@ Software developer with experience in systems administration and systems program
 
 Currently studying at **42 School**, where we learn autonomously through projects — no lectures, no teachers. I am in my final project, where our team is building a full web platform with internal traffic monitoring, containerised deployments, DevOps-driven development flow, a matchmaking system, a real-time streaming chat, and AI features trained by us.
 
----
 
 ## Goals
 
