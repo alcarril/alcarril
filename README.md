@@ -22,7 +22,8 @@ Currently studying at **42 School**, where we learn autonomously through project
 
 ## Goals
 
-Alongside that, I am starting my own projects and working towards specialising in **Infrastructure & DevOps**, **Cybersecurity**, and **AI** — with the goal of unifying those three areas, as I believe that intersection is where our industry is heading.
+I am focused on developing expertise and projects in **infrastructure**, **DevOps workflow automation**, **cybersecurity**, and **artificial intelligence**, because I believe the future of the sector will be shaped both by maintenance and by the integration of these areas with AI and AI agents.
+I am also developing my own projects, leveraging a skill set that enables me to build SaaS software tools for both consumers and businesses, focused on real-world problem solving and workflows automation.
 
 ---
 
