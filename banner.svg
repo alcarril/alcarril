@@ -1,0 +1,171 @@
+<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { fill: none; stroke: #58a6ff; stroke-width: 1; opacity: 0.4; }
+      .corner { fill: #58a6ff; }
+      .name { 
+        font-family: 'Courier New', monospace; 
+        font-size: 38px; 
+        font-weight: bold;
+        fill: #e6edf3;
+        letter-spacing: 2px;
+      }
+      .name-glitch-r {
+        font-family: 'Courier New', monospace;
+        font-size: 38px;
+        font-weight: bold;
+        fill: #ff4757;
+        letter-spacing: 2px;
+        opacity: 0;
+        animation: glitch-r 5s infinite;
+      }
+      .name-glitch-b {
+        font-family: 'Courier New', monospace;
+        font-size: 38px;
+        font-weight: bold;
+        fill: #58a6ff;
+        letter-spacing: 2px;
+        opacity: 0;
+        animation: glitch-b 5s infinite;
+      }
+      .handle {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #58a6ff;
+        letter-spacing: 4px;
+      }
+      .tag {
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        fill: #3fb950;
+        letter-spacing: 1px;
+      }
+      .prompt {
+        font-family: 'Courier New', monospace;
+        font-size: 13px;
+        fill: #3fb950;
+      }
+      .cursor {
+        fill: #58a6ff;
+        animation: blink 1s step-end infinite;
+      }
+      .scanline {
+        fill: none;
+        stroke: #58a6ff;
+        stroke-width: 0.5;
+        opacity: 0.03;
+      }
+      .divider { stroke: #58a6ff; stroke-width: 0.5; opacity: 0.3; }
+      .dot { fill: #58a6ff; animation: pulse 2s ease-in-out infinite; }
+      .dot2 { fill: #3fb950; animation: pulse 2s ease-in-out infinite 0.6s; }
+      .dot3 { fill: #ff4757; animation: pulse 2s ease-in-out infinite 1.2s; }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes glitch-r {
+        0%, 88%, 100%   { opacity: 0; transform: translate(0,0); clip-path: none; }
+        89%  { opacity: 0.7; transform: translate(-4px, 1px); clip-path: inset(15% 0 70% 0); }
+        90%  { opacity: 0.5; transform: translate(3px, -1px); clip-path: inset(60% 0 10% 0); }
+        91%  { opacity: 0; }
+        94%  { opacity: 0.6; transform: translate(-2px, 2px); clip-path: inset(40% 0 40% 0); }
+        95%  { opacity: 0; }
+      }
+      @keyframes glitch-b {
+        0%, 88%, 100%   { opacity: 0; transform: translate(0,0); clip-path: none; }
+        89%  { opacity: 0.6; transform: translate(4px, -1px); clip-path: inset(60% 0 15% 0); }
+        90%  { opacity: 0.4; transform: translate(-3px, 1px); clip-path: inset(10% 0 65% 0); }
+        91%  { opacity: 0; }
+        94%  { opacity: 0.5; transform: translate(2px, -2px); clip-path: inset(40% 0 40% 0); }
+        95%  { opacity: 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; r: 3; }
+        50% { opacity: 1; r: 4; }
+      }
+    </style>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="900" y2="0" class="scanline"/>
+    </pattern>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" class="bg" rx="6"/>
+
+  <!-- Scanlines overlay -->
+  <rect width="900" height="200" fill="url(#scanlines)" rx="6"/>
+
+  <!-- Outer border -->
+  <rect x="8" y="8" width="884" height="184" class="border" rx="4"/>
+
+  <!-- Inner border accent -->
+  <rect x="12" y="12" width="876" height="176" fill="none" stroke="#58a6ff" stroke-width="0.3" opacity="0.15" rx="3"/>
+
+  <!-- Corner accents TL -->
+  <rect x="8" y="8" width="20" height="2" fill="#58a6ff" opacity="0.8"/>
+  <rect x="8" y="8" width="2" height="20" fill="#58a6ff" opacity="0.8"/>
+  <!-- Corner accents TR -->
+  <rect x="872" y="8" width="20" height="2" fill="#58a6ff" opacity="0.8"/>
+  <rect x="890" y="8" width="2" height="20" fill="#58a6ff" opacity="0.8"/>
+  <!-- Corner accents BL -->
+  <rect x="8" y="190" width="20" height="2" fill="#58a6ff" opacity="0.8"/>
+  <rect x="8" y="172" width="2" height="20" fill="#58a6ff" opacity="0.8"/>
+  <!-- Corner accents BR -->
+  <rect x="872" y="190" width="20" height="2" fill="#58a6ff" opacity="0.8"/>
+  <rect x="890" y="172" width="2" height="20" fill="#58a6ff" opacity="0.8"/>
+
+  <!-- Window dots (top left) -->
+  <circle cx="36" cy="28" r="3" class="dot3"/>
+  <circle cx="50" cy="28" r="3" class="dot2"/>
+  <circle cx="64" cy="28" r="3" class="dot"/>
+
+  <!-- Window title bar line -->
+  <line x1="28" y1="40" x2="872" y2="40" class="divider"/>
+
+  <!-- Prompt line top -->
+  <text x="36" y="58" class="prompt">~/alcarril $</text>
+
+  <!-- TAG left -->
+  <text x="36" y="78" class="tag">[ BACKEND · INFRA · DEVOPS · SYSTEMS · LOW-LEVEL ]</text>
+
+  <!-- Glitch layers (behind name) -->
+  <text x="36" y="128" class="name-glitch-r">ALEJANDRO CARRILLO MARTÍN-CARO</text>
+  <text x="36" y="128" class="name-glitch-b">ALEJANDRO CARRILLO MARTÍN-CARO</text>
+
+  <!-- Main name -->
+  <text x="36" y="128" class="name" filter="url(#glow)">ALEJANDRO CARRILLO MARTÍN-CARO</text>
+
+  <!-- Divider line -->
+  <line x1="36" y1="142" x2="864" y2="142" class="divider"/>
+
+  <!-- Handle + cursor -->
+  <text x="36" y="162" class="handle">@alcarril</text>
+  <rect x="120" y="149" width="9" height="16" class="cursor" rx="1"/>
+
+  <!-- Right side decorative binary -->
+  <text x="680" y="162" class="tag" opacity="0.3" font-size="10">01000001 01001100 01000011</text>
+
+  <!-- Bottom prompt -->
+  <text x="36" y="182" class="prompt" opacity="0.4" font-size="11">// infrastructure · algorithms · systems · ai</text>
+
+</svg>
